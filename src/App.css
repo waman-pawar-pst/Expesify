@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#head{
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+  #wally{
+  font-family: 'Karla', sans-serif;
+  padding: 20px;
+  border-radius: 40px 40px 40px 40px;
+  box-shadow: 4px 10px 12px 8px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)
+  }
+  
+  h3{
+  padding: 1px;
+  }
+  
+  .bg-black{
+  color: aliceblue;
+  }
+  #new{
+  padding: 20px;
+  border-radius: 40px 40px 40px 40px;
+  box-shadow: 4px 10px 12px 8px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)
+  }
+  
+  #news{
+  padding: 20px;
+  border-radius: 40px 40px 40px 40px;
+  box-shadow: 4px 10px 12px 8px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)
+  }
+  
+  #exp{
+  position: relative;
+  left: 110px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)
+  }
+  
+  #inc{
+  position: relative;
+  left: 110px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)
+  }
+  
+  #navs{
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)
+  }
+  .scroll1 {
+    overflow:scroll;
+    height:150px;
+    }

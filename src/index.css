@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.c-border{
+  border: 2px solid green;
+  padding: 20px;
+  border-radius: 60px 6px 60px 6px;
+  box-shadow: 4px 10px 12px 8px;
+}
+.c-align{
+  text-align: end;
+  margin-right: 24px;
+}
+.link{
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 3px 6px 3px 6px;
+  text-decoration: none;
+}
+.c-right{
+  text-align: start;
+  font-size: 32px;
+  margin-left: 5px;
+}
+
+.scroll {
+  width: 110px;
+  height: 110px;
+  overflow: scroll;
+}
+
+.custom::-webkit-scrollbar{
+height: 5px !important;
+width: 8px !important;
+}
+
+.custom::-webkit-scrollbar-track{
+background-color: transparent;
+}
+
+.custom::-webkit-scrollbar-thumb{
+background-color: rgba(207, 138, 138, 0.8);
+}
+.my-custom-scrollbar {
+position: relative;
+height: 60vh;
+overflow: auto;
+margin-top: 10px
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+.heading{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  color: whitesmoke;
+  }
+  .th1{
+  width: 356px;
+  }
+  .tb{
+    padding: 0px 0px 0px 15px;
+    }
+  h3{
+    padding: 1px;
+  }
+
+  
