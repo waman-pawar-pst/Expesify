@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Axios from "axios";
-import "antd/dist/antd.min.css";
+import 'antd/dist/reset.css';
 import { message } from "antd";
 function F(props) {
   const [lemail, setLemail] = useState("");
